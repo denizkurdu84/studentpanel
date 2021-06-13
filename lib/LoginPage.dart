@@ -22,9 +22,9 @@ class _LoginPageState extends State<LoginPage> {
     String username = userController.text;
     String password = passwordController.text;
 
-    var url = 'https://ogrenci.cagdasbilim.k12.tr/dist/mobildb.php/';
+    var url = '';
     var data = {
-      "uid": "EwGsDaAJw2eU7jyizRrDO9WZj5LqQEwm",
+      "uid": "",
       "username": username,
       "password": password,
     };
